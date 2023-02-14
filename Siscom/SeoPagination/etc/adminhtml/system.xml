@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="catalog" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+        <group id="seo" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+            <field id="siscom_seo_pagination_enable" translate="label" type="select" sortOrder="999" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                <label>SEO Pagination</label>
+                <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+            </field>
+        </group>
+        </section>
+    </system>
+</config>
